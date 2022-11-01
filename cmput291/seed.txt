@@ -1,3 +1,11 @@
 INSERT INTO users VALUES ('p', 'p', 'p');
 INSERT INTO sessions VALUES ('p', 1, date('now'), NULL);
 INSERT INTO sessions VALUES ('p', 2, date('now'), NULL);
+
+INSERT INTO artists VALUES ('aiw', 'Sunboi', 'White', 'joe');
+INSERT INTO songs VALUES (2, 'op', 2);
+INSERT INTO songs VALUES (3, 'be', 2);
+INSERT INTO perform VALUES ('aiw', 3);
+
+INSERT INTO perform VALUES ('aiw', 2);
+INSERT INTO artists VALUES ('aio', 'suna', 'White', 'joe');
